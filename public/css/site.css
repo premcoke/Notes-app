@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0 auto;
+    background-color: #ececec;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.content {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.title {
+    padding-bottom: 20px;
+    margin: 5px;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.navigation ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 300px;
+}
